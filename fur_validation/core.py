@@ -37,15 +37,12 @@ class Fur:
 
         return name
 
-    def __generate_key(self) -> UUID:
-        key: UUID = uuid5(namespace=self.secret, name=self.name)
+    def __generate_key(self) -> str:
+        key: str = uuid5(namespace=self.secret, name=self.name).__str__()
 
         return key
 
     def generate_keyring(self) -> dict[str, Any]:
-        keyring: dict[str, Any] = {
-            "header": self.name,
-            "key": self.__generate_key().__str__(),
-        }
+        keyring: dict[str, Any] = {"header": self.name, "key": self.__generate_key()}
 
         return keyring
