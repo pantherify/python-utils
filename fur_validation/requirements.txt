@@ -1,0 +1,38 @@
+appdirs==1.4.4
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+black==19.3b0
+bleach==4.1.0
+build==0.7.0
+certifi==2021.10.8
+cffi==1.15.0
+charset-normalizer==2.0.8
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1635822579756/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+coloredlogs @ file:///home/conda/feedstock_root/build_artifacts/coloredlogs_1636295931495/work
+cryptography==36.0.0
+docutils==0.18.1
+humanfriendly @ file:///home/conda/feedstock_root/build_artifacts/humanfriendly_1636286737380/work
+idna==3.3
+importlib-metadata==4.8.2
+jeepney==0.7.1
+keyring==23.4.0
+packaging==21.3
+pep517==0.12.0
+pkginfo==1.8.1
+pycparser==2.21
+Pygments==2.10.0
+pyparsing==3.0.6
+python-dotenv @ file:///home/conda/feedstock_root/build_artifacts/python-dotenv_1636649191224/work
+readme-renderer==30.0
+requests==2.26.0
+requests-toolbelt==0.9.1
+rfc3986==1.5.0
+SecretStorage==3.3.1
+six==1.16.0
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+tomli==1.2.2
+tqdm==4.62.3
+twine==3.6.0
+urllib3==1.26.7
+webencodings==0.5.1
+zipp==3.6.0

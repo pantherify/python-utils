@@ -1,0 +1,7 @@
+[testpypi]
+username = __token__
+password = <the token value, including the `pypi-` prefix from test.pypi.org>
+
+[pypi]
+username = __token__
+password = <the token value, including the `pypi-` prefix from pypi.org>

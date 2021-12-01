@@ -5,8 +5,12 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1
   - _openmp_mutex=4.5
+  - appdirs=1.4.4
+  - attrs=21.2.0
+  - black=19.3b0
   - bzip2=1.0.8
   - ca-certificates=2021.10.8
+  - colorama=0.4.4
   - ld_impl_linux-64=2.35.1
   - libffi=3.3
   - libgcc-ng=9.3.0
@@ -21,12 +25,20 @@ dependencies:
   - readline=8.1
   - sqlite=3.36.0
   - tk=8.6.11
+  - toml=0.10.2
   - tzdata=2021e
   - wheel=0.37.0
   - xz=5.2.5
   - zlib=1.2.11
   - pip:
+    - build==0.7.0
     - certifi==2021.10.8
     - click==8.0.3
+    - coloredlogs==15.0.1
+    - humanfriendly==10.0
+    - packaging==21.3
+    - pep517==0.12.0
     - pip==21.2.4
+    - pyparsing==3.0.6
     - setuptools==58.0.4
+    - tomli==1.2.2
